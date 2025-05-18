@@ -20,7 +20,7 @@ public class Main {
         int lambdaLength = stringLengthInstance.stringToLength("Hello, Functional Interface!");
         System.out.println("Lambda: " + lambdaLength);
 
-        //定義済みFunction<>
+        //Function<>
         Function<String,Integer> stringToInteger = s -> s.length();
         int fLength = stringToInteger.apply("Hello, Functional Interface!");
         System.out.println("Function<>: " + fLength);
